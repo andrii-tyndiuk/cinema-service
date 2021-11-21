@@ -1,6 +1,8 @@
 #Cinema-Service
+
 ##Description:
-***
+
+---
 This is the implementation of a cinema service, its purpose - to show the ability to work with Hibernate and Spring framework.
 This service implements authentication and authorization with roles "USER" and "ADMIN". Depending on the user's role, different functionality is available.
 
@@ -23,7 +25,8 @@ The user with the admin role has access to all the functions listed above, and:
 * get information about user by email;
 
 ##Technologies:
-***
+
+---
 * Spring Web
 * Spring Security
 * REST
@@ -32,7 +35,8 @@ The user with the admin role has access to all the functions listed above, and:
 * Maven
 
 ##To run this app locally:
-***
+
+---
 1. in your computer must be installed java 11, MySQL and Tomcat for run this app;
 2. fork this project in your repo and clone it;
 3. add your database information to a file __resources/db.properties__:
