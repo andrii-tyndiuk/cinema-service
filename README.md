@@ -1,13 +1,10 @@
-#Cinema-Service
+# Cinema-Service
 
-##Description:
+## Description:
 
----
 This is the implementation of a cinema service, where there is all the necessary functionality for selecting a movie, buying a ticket to a movie session and administering this service.
 
-##Functionality:
-
----
+## Functionality:
 
 This service implements authentication and authorization with roles "USER" and "ADMIN".
 Depending on the user's role, different functionality is available.
@@ -34,9 +31,8 @@ Functionality available as a "ADMIN" role:
 * delete movie session;
 * get information about user by email;
 
-##Technologies:
+## Technologies:
 
----
 * Spring Web
 * Spring Security
 * REST
@@ -44,9 +40,8 @@ Functionality available as a "ADMIN" role:
 * MySQL
 * Maven
 
-##To run this app locally:
+## To run this app locally:
 
----
 1. In your computer must be installed java 11, MySQL and Tomcat for run this app;
 2. Fork this project in your repo and clone it;
 3. Add your database information to a file __resources/db.properties__:
